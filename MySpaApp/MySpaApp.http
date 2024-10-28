@@ -1,0 +1,6 @@
+@MySpaApp_HostAddress = http://localhost:5049
+
+GET {{MySpaApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

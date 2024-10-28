@@ -1,0 +1,16 @@
+.item-table {
+    width: 22.4%; 
+    border-collapse: collapse; 
+}
+
+.table-header {
+    background-color: rgb(218, 203, 203); 
+    padding: 10px; 
+    border: 1px solid #020202; 
+}
+
+.table-cell {
+    padding: 10px; 
+    border: 1px solid #000000; 
+    text-align: center; 
+}
