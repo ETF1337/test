@@ -33,6 +33,7 @@ namespace MySpaApp.Controllers
         [HttpPost]
         public IActionResult Create(Item item)
         {
+            
             _repository.Create(item);
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }
@@ -60,14 +61,16 @@ public IActionResult ExportToExcel([FromBody] List<Item> items)
     using (var package = new ExcelPackage()) {
 
         var worksheet = package.Workbook.Worksheets.Add("Items");
-        worksheet.Cells[1, 1].Value = "Значение 1";
-        worksheet.Cells[1, 2].Value = "Значение 2";
+        worksheet.Cells[1, 1].Value = "id";
+        worksheet.Cells[1, 2].Value = "cell 1";
+        worksheet.Cells[1, 3].Value = "cell 2";
 
         int row = 2;
         foreach (var item in items)
         {
             worksheet.Cells[row, 1].Value = item.Id;
             worksheet.Cells[row, 2].Value = item.Name;
+            worksheet.Cells[row, 3].Value = item.Description;
             row++;
         }
 

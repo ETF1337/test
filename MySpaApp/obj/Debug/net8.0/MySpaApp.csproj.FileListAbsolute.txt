@@ -29,6 +29,7 @@ D:\test\MySpaApp\obj\Debug\net8.0\MySpaApp.AssemblyInfo.cs
 D:\test\MySpaApp\obj\Debug\net8.0\MySpaApp.csproj.CoreCompileInputs.cache
 D:\test\MySpaApp\obj\Debug\net8.0\MySpaApp.MvcApplicationPartsAssemblyInfo.cs
 D:\test\MySpaApp\obj\Debug\net8.0\MySpaApp.MvcApplicationPartsAssemblyInfo.cache
+D:\test\MySpaApp\obj\Debug\net8.0\MySpaApp.sourcelink.json
 D:\test\MySpaApp\obj\Debug\net8.0\staticwebassets.build.json
 D:\test\MySpaApp\obj\Debug\net8.0\staticwebassets.development.json
 D:\test\MySpaApp\obj\Debug\net8.0\staticwebassets\msbuild.MySpaApp.Microsoft.AspNetCore.StaticWebAssets.props

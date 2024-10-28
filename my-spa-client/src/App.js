@@ -6,7 +6,12 @@ const App = () => {
     const [items, setItems] = useState([]);
 
     const addItem = (item) => {
-        setItems([...items, item]);
+        const newItem = {
+            id: items.length + 1, 
+            name: item.name,
+            description: item.description
+        };
+        setItems([...items, newItem]);
     };
 
     const exportToExcel = async () => {
